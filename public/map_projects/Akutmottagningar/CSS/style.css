@@ -33,8 +33,11 @@ body,
     
 }
 
- .legend{
+#header{
+    text-align: center;
+}
 
+ .legend{
     background:white;
     padding:10px;
     border-radius:5px;

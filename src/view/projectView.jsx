@@ -76,7 +76,13 @@ export function ProjectView(props) {
                         )}
                         {data.mapobject &&
                         (
-                            <MapFrame src={data.mapobject.src} title={data.mapobject.title} className='map_frame'/>
+                            <div style={{textAlign:"center", fontSize:"medium"}}> 
+                                <MapFrame src={data.mapobject.src} title={data.mapobject.title} className='map_frame'/>
+                                <div style={{marginTop:"5px", marginBottom:"10px", fontSize:"medium"}}>
+                                    <a class_name="map_link"  href={data.mapobject.src}>The map can be viewed in fullscreen format by clicking here</a>
+                                </div>
+                            </div>
+
                         )}
                         {data.carousel && data.carousel.length != 0 && (
                             <div>
