@@ -3,6 +3,10 @@ import { RiPagesLine } from "react-icons/ri";
 import { FiGlobe } from "react-icons/fi";
 import Carousel from '../utilities/carousel';
 
+
+//Lägg till kartlänkar här
+import MapFrame from '../maps/mapframe'
+
 export function ProjectView(props) {
     
     function CreateCarouselData (carousel_data)
@@ -69,6 +73,10 @@ export function ProjectView(props) {
                                 </div>
                             ))}
                             </div>
+                        )}
+                        {data.mapobject &&
+                        (
+                            <MapFrame src={data.mapobject.src} title={data.mapobject.title} className='map_frame'/>
                         )}
                         {data.carousel && data.carousel.length != 0 && (
                             <div>

@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://keidukebergman.github.io/react-vite-portfolio/",
+  "homepage": "https://ioannistselis.github.io/portfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,13 +8,14 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.5.0",
     "gh-pages": "^6.3.0",
+    "leaflet": "^1.9.4",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-icons": "^5.5.0",

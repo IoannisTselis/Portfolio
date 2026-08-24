@@ -17,9 +17,9 @@ export function HeaderView(props) {
                     <img src={import.meta.env.BASE_URL + "/img/general/kei_inspirational_photo.png"} className="header_image" alt="Kei"/>
                     <div className="header_text">
                         <h1 className="heading-primary">
-                            <span>Kei Duke-Bergman</span>
+                            <span>Ioannis Tselis</span>
                         </h1>
-                        <p>Computer Science and Interactive Media Technology student @ KTH</p>
+                        <p>Urban Planner & Designer</p>
                     </div>
                 </div>
             </>

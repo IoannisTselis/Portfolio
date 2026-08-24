@@ -12,77 +12,11 @@
             "youtube" : "",
             "github" : "https://github.com/bAll-Focus/beelzebubs_basement",
             "website" : "https://sites.google.com/view/baalsbasement",
+            "mapobject" : {
+                "src" : "/portfolio/map_projects/Akutmottagningar/index.html",
+                "title" : "Emergency Hospital Access"
+            }, 
             "pride" : 10
-        },
-        {
-            "index" : 0,
-            "title" : "Project Capsize",
-            "keywords" : ["Unity3D", "C#", "Arduino", "Electrical Engineering", "Physical design"],
-            "description" : "Project Capsize is a highly innovative VR sailing simulator in which you control a small sailing boat via a pulley and rudder, just like in real life! Thanks to the Omnidirectional Wind Helmet, you can feel the wind blowing on your face and adjust your sail to catch it. Brave realistic waves in a stylized environment. Control a physically modelled boat. Navigate a great lake and find its landmarks.",
-            "contributions" : "At the start of the project, I mainly worked with electronics. I used an Arduino chip together with a set of potentiometers to create the foundation for the physical instruments. I developed the connection schema for the electronics, and did much of the soldering and building for the project. I developed a communications protocol for the data transfer between the Arduino and Unity, using serial connections with basic error-detection. In Unity, I developed a system for detecting the rotation of the user's head in order to control the power of the connected fans. At the later stages of the project, I developed toon shaders from scratch in HLSL, including a cloud shader.",
-            "images" : [],
-            "carousel" : [],
-            "year" : 2025,
-            "youtube" : "https://www.youtube.com/embed/McP3La6NdGc?si=V9UwoxneSElnu8em",
-            "github" : "",
-            "website" : "https://sites.google.com/view/projectcapsize/home",
-            "pride" : 10
-        },
-        {
-            "index" : 0,
-            "title" : "A space to W(o/a)nder",
-            "keywords" : ["Arduino", "Electrical Engineering", "Physical design"],
-            "description" : "A space to W(o/a)nder was a fully interactive display piece exhibited at Tekniska Museet. We made 5 light-emitting orbs with lenses that focused the light into water that then diffracted it in various patterns. The LED-lights on the orbs were controlled via an arduino and responded to being moved. Combined with an ambient soundtrack and a show by one of the group members, we made a display piece to remember.",
-            "contributions" : "I planned out most of the electrical engineering, coded the light response to being tilted and moved around, soldered much of the wiring and waterproofed the final orbs according to guidelines provided by the museum.",
-            "images" : ["woander/IMG_6633.JPG", "woander/IMG_6661.JPG"],
-            "carousel" : [],
-            "year" : 2025,
-            "youtube" : "",
-            "github" : "",
-            "website" : "",
-            "pride" : 8
-        },
-        {
-            "index" : 0,
-            "title" : "TracQuiz",
-            "keywords" : ["React", "Vite", "Web API", "Firebase", "Firestore", "AI integration in web application"],
-            "description" : "TracQuiz is a web application built in React, with Gemini integration, Spotify integration and a backend in Firestore. It is a music quiz game, where the host generates a custom quiz based on a Spotify playlist of their choice, and the players try to answer the generated trivia questions on their own devices (similar to Kahoot).\n \n The realtime database powering the service has since went offline, so the demo is unfortunately not playable anymore.",
-            "contributions" : "I managed the system architecture, making sure that the application fit the Model-View-Presenter-standard in react development. I also managed the multiplayer aspect, linking devices together over the Firebase Realtime Database.",
-            "images" : [],
-            "carousel" : ["tracquiz/tracquiz_1.png", "tracquiz/tracquiz_2.png", "tracquiz/tracquiz_3.png"],
-            "year" : 2025,
-            "youtube" : "",
-            "github" : "",
-            "website" : "https://musicquiz-852ea.web.app/",
-            "pride" : 9
-        },
-        {
-            "index" : 0,
-            "title" : "This Portfolio",
-            "keywords" : ["React", "Vite", "glsl", "Json."],
-            "description" : "The very site you are on at the moment! Built in React from scratch in order to refresh my React skills. Designed for ease of maintenance and extension.",
-            "contributions" : "Vite setup, project creation, content formatting, styling. Animations in glsl.",
-            "images" : [],
-            "carousel" : ["portfolio/portfolio_1.png", "portfolio/portfolio_2.png", "portfolio/portfolio_3.png"],
-            "year" : 2026,
-            "youtube" : "",
-            "github" : "",
-            "website" : "",
-            "pride" : 9.5
-        },
-        {
-            "index" : 0,
-            "title" : "AR cargo ship",
-            "keywords" : ["Unity3D", "C#", "Vuforia", "XR"],
-            "description" : "The AR Cargo Ship is a Unity application where the user commands a ship using their keyboard and real-world tokens. The tokens represent crew members, each with their own specialisations, that have to be moved around a physical game board to respond to different crises in-game. At the same time, the user has to steer the ship clear of obstacles using the arrow keys.",
-            "contributions" : "I ideated and developed the framework for the application. I also developed most of the game mechanics and visuals.",
-            "images" : [],
-            "carousel" : ["cargo/gameview.png", "cargo/setup.png"],
-            "year" : 2024,
-            "youtube" : "https://www.youtube.com/embed/AGnPbNJy9lA?si=KlvPnn1li4gauDMf",
-            "github" : "",
-            "website" : "",
-            "pride" : 5
         }
     ],
     "about_me":"I am a computer science student with special interest in graphics and interaction. I am a tinkerer who loves to pick things apart and to understand how they work from the inside out. In my spare time, I experiment with technology, develop games, play TTRPGs, dance Lindyhop and read."
