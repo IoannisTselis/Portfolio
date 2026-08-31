@@ -1,6 +1,8 @@
 import { FaGithub } from 'react-icons/fa';
 import { RiPagesLine } from "react-icons/ri";
 import { FiGlobe } from "react-icons/fi";
+import { FaFilePdf } from "react-icons/fa";
+
 import Carousel from '../utilities/carousel';
 
 
@@ -44,6 +46,13 @@ export function ProjectView(props) {
                                     <div>
                                         <a href={data.website} target="_blank" rel="noopener noreferrer">
                                             <FiGlobe size={30} color="#FFF" />
+                                        </a>
+                                    </div>
+                                )}
+                                {data.pdf && (
+                                    <div>
+                                        <a href={data.pdf} target="_blank" rel="noopener noreferrer">
+                                            <FaFilePdf size={30} color="#FFF" />
                                         </a>
                                     </div>
                                 )}
