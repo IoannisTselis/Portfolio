@@ -7,18 +7,17 @@
             "description" : "An interactable web map of the accessibility to emergency hospitals in Stockholm County. The map is meant to create an overview of areas with weaker levels of access in the county,  including population data to allow users to better understand & analyse how the population is impacted. The map has is based on a network analysis that uses road data from Trafikverket, a population grid from SCB, emergency hospital points from QuickOSM, and the county border from SCB. There is a full documentation of the methods and data used available as a PDF.",
             "contributions" : "",
             "images" : [],
-            "carousel" : ["baal/vsdemon.jpg","baal/vsdemon2.jpg"],
+            "carousel" : [],
             "year" : 2026,
             "youtube" : "",
             "pdf" : "/portfolio/documents/NetworkAnalysisEmergencyHospitals.pdf",
-            "github" : "https://github.com/bAll-Focus/beelzebubs_basement",
-            "website" : "https://sites.google.com/view/baalsbasement",
+            "github" : "",
+            "website" : "",
             "mapobject" : {
                 "src" : "/portfolio/map_projects/Akutmottagningar/index.html",
                 "title" : "Emergency Hospital Access"
             }, 
             "pride" : 10
         }
-    ],
-    "about_me":"I am not a computer science student with special  sdfsfadasdafsafinterest in graphics and interaction. I am a tinkerer who loves to pick things apart and to understand how they work from the inside out. In my spare time, I experiment with technology, develop games, play TTRPGs, dance Lindyhop and read."
+    ]
 }

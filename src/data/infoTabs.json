@@ -1,15 +1,19 @@
 {
     "info_tabs" :{
-
+            "header_section" :
+            {
+                "name" : "Ioannis Tselis",
+                "professional_title" : "Insert Professional Title Here"
+            },
             "project_section" : {
                 "header_text" : "Coming from a solid Computer Science foundation, my specialities are graphics programming, game design and development of electronic interfaces. Here is an overview of some of my projects."
             },
             "about_section" :
             {
-                "header_text" : "A programmer, writer and musician from central Stockholm.",
-                "main_text" : "Hello! \n \n The name is Kei. If you have looked around on this site or my LinkedIn, you already know that I am a huge tech enthusiast. I like to tinker with everything from hardware to software, and I take pride in making things that shouldn't be technically feasible possible. I am also a literature nerd and aspiring writer, and engage in the occasional music production. In my spare time, I read, paint, develop games and dance lindy hop. \n\n If you have any proposition, business or otherwise, that involves these topics, don't hesitate to reach out over my socials, linked below!",
+                "header_text" : "Sample text",
+                "main_text" : "Sample text",
                 "cv_link" : "hex",
-                "images" : ["about_0.png", "about_1.jpg", "about_2.jpg"]
+                "images" : ["about_0.png", "about_1.jpg"]
             },
             "contact_section" :
             {
