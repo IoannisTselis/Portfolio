@@ -30,7 +30,7 @@ export function AboutView(props) {
                 <div className="about_content">
                     <Carousel images={format_images(props.info.images)}/>
                     <p>{props.info.main_text}</p>
-                    <div className="cv_container">{link_CV("documents/cv.pdf")}</div>
+                    <div className="cv_container">{link_CV(props.info.cv_link)}</div>
                 </div>
             </div>
         </section>

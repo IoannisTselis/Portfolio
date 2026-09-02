@@ -21,9 +21,9 @@ function ReactRoot(props) {
     <>
       <div className='header'>
         <BackgroundShaderView className="animation"/>
-        <HeaderPresenter/> 
+        <HeaderPresenter info = {props.infoTabs.header_section}/> 
       </div>
-      <ProjectPresenter projectData = {props.projectData}/>
+      <ProjectPresenter projectData = {props.projectData} info = {props.infoTabs.project_section}/>
       <AboutPresenter info = {props.infoTabs.about_section}/>
       <ContactPresenter info = {props.infoTabs.contact_section}/>
     </>

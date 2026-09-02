@@ -3,16 +3,18 @@
             "header_section" :
             {
                 "name" : "Ioannis Tselis",
-                "professional_title" : "Insert Professional Title Here"
+                "professional_title" : "Insert Professional Title Here",
+                "logotype_url" : "img/general/photonamehere",
+                "portrait_url" : "img/general/photonamehere"
             },
             "project_section" : {
-                "header_text" : "Coming from a solid Computer Science foundation, my specialities are graphics programming, game design and development of electronic interfaces. Here is an overview of some of my projects."
+                "header_text" : "Text about your work."
             },
             "about_section" :
             {
-                "header_text" : "Sample text",
-                "main_text" : "Sample text",
-                "cv_link" : "hex",
+                "header_text" : "Short summary of you",
+                "main_text" : "About you",
+                "cv_link" : "this/should/point/somewhere/in/public",
                 "images" : ["about_0.png", "about_1.jpg"]
             },
             "contact_section" :

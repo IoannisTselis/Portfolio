@@ -111,7 +111,7 @@ export function ProjectView(props) {
                     <div className='work_title'> <h1>My Work</h1> </div>
                 </div>
                 <br/>
-                <p>Coming from a solid Computer Science foundation, my specialities are graphics programming, game design and development of electronic interfaces. Here is an overview of some of my projects.</p>
+                <p>{props.info.header_text}</p>
             </div>
             <div className="work_container">
                 {sortedProjects.map((project)=>(<DisplayProjectData key={project.title} data={project}/>))}

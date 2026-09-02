@@ -8,17 +8,25 @@ uniform float uHover;
 
 float radius_hash (vec2 id)
 {
-    id = fract(id * vec2(sin(id.x * 9932.2) * 9342.12 , cos(id.y*2300.2)*34557.12));
+    id = fract(id * vec2(sin(id.x * 92.2) * 9342.12 , cos(id.y*23.2)*34557.12));
     id += 5.0 * dot(id, id + 32.12);
     return fract(id.x * id.y);
 }
 
 void main() {
     vec2 uv = vUv;
-    float grid_size = 5.0;
+
+    float grid_size = 12.0;
     int neighbors = 1;
+    float time_modifier = 0.5;
+    float time = uTime * time_modifier;
 
     vec2 aspectUV = vec2(uv.x * uAspect, uv.y);
+
+    vec2 mouse_aspect = vec2(uMouse.x * uAspect, uMouse.y);
+    vec2 mouse_grid_position = grid_size * mouse_aspect;
+    vec2 mouse_floor_grid_position = floor(mouse_grid_position);
+
     vec2 gridUV = aspectUV * grid_size;          
     vec2 grid_coordinates = floor(gridUV);
 
@@ -31,7 +39,7 @@ void main() {
             vec2 center_point = local_cell + vec2(0.5);
 
             float radiush = radius_hash(local_cell);
-            float local_radius = (sin(240.0 * radiush + uTime)) * radius;
+            float local_radius = (max(sin(240.0 * radiush + time), max(3.0 * (0.97 + 0.03 * sin(time * 20.0 + 240.0 * radiush)) - distance(mouse_grid_position - vec2(0.5, 0.5), local_cell), 0.0))) * radius;
             
             float center_point_dist = distance(center_point, gridUV);
             float dist_pow = pow(center_point_dist/local_radius, 1.0);
@@ -40,6 +48,14 @@ void main() {
             if (distance(center_point, gridUV) < local_radius) {
 
                 finalColor = vec3(smoothstep(0.0, 1.0, dist_pow));
+                if (distance(local_cell, mouse_floor_grid_position) <= 3.0)
+                {
+                    float l = length(finalColor);
+                    finalColor.x *= 0.1;
+                    finalColor.z *= 0.4;
+                    finalColor.y *= 0.25;
+                    finalColor = normalize(finalColor) * l;
+                }
             }
         }
     }
