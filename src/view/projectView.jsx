@@ -86,7 +86,7 @@ export function ProjectView(props) {
                         {data.mapobject &&
                         (
                             <div className="image_container" style={{textAlign:"center", fontSize:"medium"}}> 
-                                <MapFrame src={data.mapobject.src} title={data.mapobject.title} className='map_frame'/>
+                                <MapFrame src={`${import.meta.env.BASE_URL}`+data.mapobject.src} title={data.mapobject.title} className='map_frame'/>
                                 <div style={{marginTop:"5px", marginBottom:"10px", fontSize:"medium"}}>
                                     <a class_name="map_link"  href={`${import.meta.env.BASE_URL}`+data.mapobject.src}>The map can be viewed in fullscreen format by clicking here</a>
                                 </div>
