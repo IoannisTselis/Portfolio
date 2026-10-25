@@ -10,11 +10,11 @@
             "carousel" : [],
             "year" : 2026,
             "youtube" : "",
-            "pdf" : "/documents/NetworkAnalysisEmergencyHospitals.pdf",
+            "pdf" : "documents/NetworkAnalysisEmergencyHospitals.pdf",
             "github" : "",
             "website" : "",
             "mapobject" : {
-                "src" : "/map_projects/Akutmottagningar/index.html",
+                "src" : "map_projects/Akutmottagningar/index.html",
                 "title" : "Emergency Hospital Access"
             }, 
             "pride" : 10
