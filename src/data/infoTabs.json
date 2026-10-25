@@ -5,7 +5,7 @@
                 "name" : "Ioannis Tselis",
                 "professional_title" : "GIS analyst & urban planner",
                 "logotype_url" : "",
-                "portrait_url" : "img/about/IMG20251101161033_01.png"
+                "portrait_url" : "img/about/bannertest.png"
             },
             "project_section" : {
                 "header_text" : "My background starts in urban planning, where I discovered a huge interest in GIS and geospatial issues. I have since found alot of joy in being able to share the results and information with others, which has inspired me to develop skills in website programming, so that the geospatial information can be made both easy to understand and fun to interact with."
@@ -15,7 +15,7 @@
                 "header_text" : "Short summary of you",
                 "main_text" : "Hello!\n\nI hope that you have found my projects interesting! My name is Ioannis, and I have alot of passion for spatial analysis, and making geodata accessible and interactable.  In my freetime I enjoy photography, reading, and puzzlegames like chess.\n\nIf you have any inquiries or propositions, about projects or other opportunities relating to something you have seen here, please feel free to reach out!",
                 "cv_link" : "this/should/point/somewhere/in/public",
-                "images" : ["IMG20251101161033_01.png"]
+                "images" : ["testface.png"]
             },
             "contact_section" :
             {
