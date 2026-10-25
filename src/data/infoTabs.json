@@ -15,7 +15,7 @@
                 "header_text" : "Short summary of you",
                 "main_text" : "Hello!\n\nI hope that you have found my projects interesting! My name is Ioannis, and I have alot of passion for spatial analysis, and making geodata accessible and interactable.  In my freetime I enjoy photography, reading, and puzzlegames like chess.\n\nIf you have any inquiries or propositions, about projects or other opportunities relating to something you have seen here, please feel free to reach out!",
                 "cv_link" : "this/should/point/somewhere/in/public",
-                "images" : ["public/img/about/IMG20251101161033_01.png"]
+                "images" : ["IMG20251101161033_01.png"]
             },
             "contact_section" :
             {
