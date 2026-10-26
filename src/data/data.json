@@ -4,8 +4,8 @@
             "index" : 0,
             "title" : "Emergency Hospital Accessability Map",
             "keywords" : ["WebGIS, QGIS, Urban planning, Network analysis, Javascript, CSS, HTML, Leaflet"],
-            "description" : "An interactable web map of the accessibility to emergency hospitals in Stockholm County. The map is meant to create an overview of areas with weaker levels of access in the county,  including population data to allow users to better understand & analyse how the population is impacted. The map has is based on a network analysis that uses road data from Trafikverket, a population grid from SCB, emergency hospital points from QuickOSM, and the county border from SCB. There is a full documentation of the methods and data used available as a PDF.",
-            "contributions" : "",
+            "description" : "An interactable web map of the accessibility to emergency hospitals in Stockholm County. The map is meant to create an overview of areas with weaker levels of access in the county, including population data to allow users to better understand & analyse how the population is impacted. The map has is based on a network analysis that uses road data from Trafikverket, a population grid from SCB, emergency hospital points from QuickOSM, and the county border from SCB. The project was a great way to reinforce the network analysis, and a fun way to explore webGIS with some programming languages and a commonly used library in Leaflet. There is a full documentation of the methods and data used available as a PDF.",
+            "documentation" : "",
             "images" : [],
             "carousel" : [],
             "year" : 2026,
@@ -15,6 +15,27 @@
             "website" : "",
             "mapobject" : {
                 "src" : "map_projects/Akutmottagningar/index.html",
+                "title" : "Emergency Hospital Access"
+            }, 
+            "pride" : 10
+        }
+
+
+        {
+            "index" : 0,
+            "title" : "Wildfire Impact Analysis Interactive Map",
+            "keywords" : ["WebGIS, ArcGIS Pro, Disaster Management, Copernicus, Vegetation Indexes, ArcPy Scripts, Javascript, CSS, HTML, OpenLayers, GeoServer, GDAL"],
+            "description" : "An analysis.",
+            "documentation" : "",
+            "images" : [],
+            "carousel" : [],
+            "year" : 2026,
+            "youtube" : "",
+            "pdf" : "",
+            "github" : "https://ioannistselis.github.io/wildfire-publish/",
+            "website" : "",
+            "mapobject" : {
+                "src" : "",
                 "title" : "Emergency Hospital Access"
             }, 
             "pride" : 10
