@@ -193,6 +193,7 @@ const div = L.DomUtil.create('div','info legend');
 
     div.innerHTML =
 
+        '<h4>Travel time</h4>' +
         '<i style="background:#228B22"></i> 0-10 min<br>' +
         '<i style="background:#2ECC71"></i> 10-15 min<br>' +
         '<i style="background:#F1C40F"></i> 15-20 min<br>' +
