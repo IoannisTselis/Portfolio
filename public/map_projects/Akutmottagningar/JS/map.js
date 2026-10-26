@@ -240,8 +240,8 @@ function createLayerControl() {
     if (!geojsonLayer|| !hospitalLayer) return;
 
  const overlays = {
-        "Restidszoner": geojsonLayer,
-        "Akutsjukhus": hospitalLayer
+        "Traveltime zones": geojsonLayer,
+        "Emergency hospitals": hospitalLayer
     };
     L.control.layers(null, overlays, {position: 'bottomleft'}).addTo(map);
 }
