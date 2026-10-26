@@ -18,11 +18,11 @@
                 "title" : "Emergency Hospital Access"
             }, 
             "pride" : 10
-        }
+        },
 
 
         {
-            "index" : 1,
+            "index" : 0,
             "title" : "Wildfire Impact Analysis Interactive Map",
             "keywords" : ["WebGIS, ArcGIS Pro, Disaster Management, Copernicus, Vegetation Indexes, ArcPy Scripts, Javascript, CSS, HTML, OpenLayers, GeoServer, GDAL"],
             "description" : "An analysis.",
